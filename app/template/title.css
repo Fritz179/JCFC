@@ -1,5 +1,5 @@
 .title {
-  background: #e9ecef;
+  background: var(--primary);
   text-align: center;
   padding: 2rem;
 }
@@ -25,6 +25,7 @@
 .footer {
   text-align: center;
   padding: 2rem;
+  background: var(--primary);
 }
 
 .footer p {
