@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JCFC Paintings</title>
+  </head>
+  <body>
+
+    <style> <%- include('style.css') %> </style>
+
+    <style> <%- include('card.css') %> </style>
+
+    <style><%- include('title.css') %></style>
+
+    <section class="title">
+      <h1 id="welcome">JC & FC</h1>
+      <p id="description">Galleria dei quadri di Jan & Fritz</p>
+      <a href="https://www.instagram.com/jc_fc_paintings/" target="_blank">
+        <img class="insta" src="/img/insta.png" onclick="">
+      </a>
+      <p id="description">Contattaci su instagram per orinare un quadro su misura!</p>
+    </section>
+
+
+    <div class="card-wrapper">
+      <section class="cards">
+
+        <%- include('card.ejs', {id: 0, title: '1.5m x 1m', p: '600.- CHF'}) %>
+
+        <%- include('card.ejs', {id: 1, title: '50cm x 25cm', p: '350.- CHF'}) %>
+
+        <%- include('card.ejs', {id: 2, title: '45cm x 35xm', p: '400.- CHF'}) %>
+
+        <%- include('card.ejs', {id: 3, title: '1m x 1.5m', p: '600.- CHF'}) %>
+
+        <%- include('card.ejs', {id: 4, title: '1.2m x 0.8m', p: '550.- CHF'}) %>
+
+      </section>
+    </div>
+
+    <section class="footer">
+      <p id="description">Contattaci su instagram per orinare un quadro su misura!</p>
+      
+      <a href="https://www.instagram.com/jc_fc_paintings/" target="_blank">
+        <img class="insta" src="/img/insta.png" onclick="">
+      </a>
+    </section>
+
+  </body>
+</html>

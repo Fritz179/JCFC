@@ -1,0 +1,81 @@
+.header-wrapper {
+  background: var(--primary);
+  margin-top: 2rem;
+  padding-top: 4rem;
+}
+
+.headers {
+  max-width: 65rem;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr;
+  align-items: start;
+  padding: 0 6rem;
+}
+
+img {
+  width: 100%;
+}
+
+.card-wrapper {
+  background: var(--secondary);
+  margin-top: 2rem;
+  padding-top: 4rem;
+}
+
+.cards {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  padding: 0 6rem;
+}
+
+.cards .card {
+  --card-radius: 6px;
+
+  width: 100%;
+  border-radius: var(--card-radius);
+  box-shadow: var(--shadow);
+  background: #fff;
+  border: var(--border);
+}
+
+.cards .card img {
+  border-top-left-radius: var(--card-radius);
+  border-top-right-radius: var(--card-radius);
+}
+
+.cards .card .card-body {
+  max-width: 85%;
+  margin: auto;
+}
+
+.cards .card .card-body h4 {
+  font-family: roboto;
+  margin: 0.75rem 0 0;
+  font-size: 1.75rem;
+}
+
+.cards .card .card-body p {
+  font-family: roboto-light;
+  margin-top: 0.75rem;
+  font-size: 1.125rem;
+}
+
+@media (max-width: 1400px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 55rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 35rem;
+  }
+}

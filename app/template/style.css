@@ -1,0 +1,39 @@
+/* Fonts */
+@font-face {
+  src: url(/fonts/Roboto-Thin.ttf);
+  font-family: roboto-thin;
+  font-display: fallback;
+}
+
+@font-face {
+  src: url(/fonts/Roboto-Light.ttf);
+  font-family: roboto-light;
+  font-display: fallback;
+}
+
+@font-face {
+  src: url(/fonts/Roboto-Regular.ttf);
+  font-family: roboto;
+  font-display: fallback;
+}
+
+:root {
+  --primary: #e9ecef;
+  --secondary: #f8f9fa;
+  --petroleum: #343a40;
+  --gray: #ddd;
+  --dark: #333;
+  --shadow: 3px 5px 4px rgba(104, 104, 104, 0.5);
+  --border: 1px solid rgba(0, 0, 0, 0.25)
+}
+
+html {
+  font-family: roboto;
+  color: var(--dark);
+  min-width: 29rem;
+}
+
+body {
+  margin: 0;
+  line-height: 1.4;
+}

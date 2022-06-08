@@ -1,0 +1,41 @@
+.title {
+  background: #e9ecef;
+  text-align: center;
+  padding: 2rem;
+}
+
+.title #welcome {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.title p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin: 1rem;
+  font-family: roboto-light;
+}
+
+.title .insta {
+  width: 20rem;
+  margin: 2rem;
+  margin-bottom: 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+}
+
+.footer p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin: 1rem;
+  margin-top: 2rem;
+  font-family: roboto-light;
+}
+
+.footer .insta {
+  width: 20rem;
+  margin: 2rem;
+}
