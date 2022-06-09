@@ -40,7 +40,6 @@ img {
   width: 100%;
   border-radius: var(--card-radius);
   box-shadow: var(--shadow);
-  background: #fff;
   border: var(--border);
 }
 
